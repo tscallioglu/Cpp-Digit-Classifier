@@ -59,45 +59,11 @@ After (by default 10, you can change the number of epochs from kNumberOfEpochs (
 The digit in the image is  1
 [ CPULongType{1} ]
 == Input image path: [enter Q to exit]
-
-
+~~~
 If the program can not find or load the image, it will give an error:
+~~~
 == Input image path: [enter Q to exit]
 ../pic/1.png
 Can't load the image, please check your path.
 == Input image path: [enter Q to exit]
 ~~~
-
-## RUBRIC POINTS
-
-### README 
-All rubric points are done.
-
-### Compiling and Testing
-All rubric points are done.
-
-### Loops, Functions, I/O
-
-The project demonstrates an understanding of C++ functions and control structures. 
-LoadImage (line 32), train (line 82), test (line 112) are functions. There are for loops (line 91-108, 121-132 ...), if else/if conditionals (line 100-107, 146-152 ...). 
-
-The project reads data from a file and process the data, or the program writes data to a file. 
-The project reads the training data (line 158) and testing data (line 166) from "data" folder. Also for predictions it reads the im age file in the "pic" folder by using LoadImage function. (line 190)
-
-The project accepts user input and processes the input.
-The project reads the input data, file name (line 186) from console to predict the given name of the image.  
-
-### Object Oriented Programming
-
-Classes follow an appropriate inheritance hierarchy.
-"struct Net" is derived from "torch::nn::Module". (line 50)
-
-Overloaded functions allow the same function to operate on different parameters.
-"forward" function of "struct Net" is overloaded. (line 63)
-
-### Memory Management
-The project makes use of references in function declaratons.
-In the "LoadImage" function, "train" function, "test" function, references are used.
-
-
-
