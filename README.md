@@ -53,6 +53,7 @@ $ ./classifier
 ~~~
 
 After (by default 10, you can change the number of epochs from kNumberOfEpochs (line 26) variable in the main.cpp) epochs of training, the program asks you to predict new photos in the "pic" folder:
+~~~
 == Input image path: [enter Q to exit]
 ../pic/0001.png
 The digit in the image is  1
@@ -65,7 +66,7 @@ If the program can not find or load the image, it will give an error:
 ../pic/1.png
 Can't load the image, please check your path.
 == Input image path: [enter Q to exit]
-
+~~~
 
 ## RUBRIC POINTS
 
